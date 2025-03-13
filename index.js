@@ -1,4 +1,5 @@
 
+////////////////// ForEach /////////////////////
 
 /*arr.forEach(function (element, idx) {
     console.log(`The index ${idx} has a value of ${element}`)
@@ -11,6 +12,8 @@ for(let i = arr.length-1; i > 0; i--){
     console.log(`The index ${idx} has a value of ${ele}`)
 })*/
 
+////////////////// Find /////////////////////
+
 /*const found = arr.find(function(ele){
     return ele >= 3
 })
@@ -21,11 +24,14 @@ const x = strArr.find(function(word){
     return word.length > 9000
 })
 
+////////////////// Filter /////////////////////
 
 const y = strArr.filter((word) => { 
     return word.includes("apple")
 })
 console.log(y)*/
+
+////////////////// Map /////////////////////
 
 /*const newArr = [23,456,234,67]
 
@@ -40,6 +46,8 @@ const html = data.map((poke) => {
     return `<li>${poke} </li>`
 })
 console.log(html)*/
+
+////////////////// Reduce /////////////////////
 
 const arr = [1,2,3,4,5]
 
@@ -83,6 +91,9 @@ const stats = strArr.reduce((acc, cur) => {
     return acc
 }, {} )
 console.log(stats)
+
+
+////////////////// Sort /////////////////////
 
 const unsortedArr = [23, 4, 67,13, 456, 10, 1000, 1,100000]
 console.log(unsortedArr)
